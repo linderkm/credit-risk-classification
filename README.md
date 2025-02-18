@@ -21,10 +21,10 @@ A confusion matrix and classification report were genearted to evaluate the perf
     * The model has a 0.99 accuracy score, meaning that the model was highly successful at correctly predicting whether a loan profile was healthy or high risk.
 * Precision:
     * Healthy Loans ('Class 0'): The model gets a 1.00 score for precision. The model was extremely successful at correctly classifying healthy loan profiles, with limited instances of high-risk profiles being classified has healthy.
-    * High-risk loans ('Class 1'): The model gets a 0.84 score for precision. The model was less successful at correctly classifying high-risk profiles, with greater instances of healthy profiles being incorrectly classified as high risk.
+    * High-risk loans ('Class 1'): The model gets a 0.84 score for precision. There were a noteable number of instances where healthy profiles were incorrectly classified as high risk.
 * Recall:
-    * Healthy Loans ('Class 0'): The model gets a 0.99 score for recall. The model produced minimal instances of healthy profiles being classified as high-risk.
-    * High-Risk Loans ('Class 1'): The model gets a 0.98 score for recall. The model produced minimal instances of high-risk profiles being classified as healthy.    
+    * Healthy Loans ('Class 0'): The model gets a 0.99 recall score. Approximaly 99% of healthy profiles were correctly classified as healthy, whereas approximately 1% of healthy profiles were incorrectly classified as high-risk.
+    * High-Risk Loans ('Class 1'): The model gets a 0.98 reacll score. Approximately 98% of high-risk profiles were correctly classified as high-risk, whereas approximately 2% of high-risk profiles were incorrectly classified as healthy.
 
 ### Summary
 
