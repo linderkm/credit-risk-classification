@@ -1,5 +1,8 @@
-# credit-risk-classification
-This repo contains code and analysis for the Module 20 Challenge.
+# Challenge 20: Credit Risk Classification
+This repo contains code and analysis for the Module 20 Challenge. Code for this challenge can be found in Credit_Risk/credit_risk_classification.ipynb. The analysis component can be found below.
+
+### References
+References for this project are listed here. The number associated with each refernce corresponds to the reference numbers included in code comments.
 
 
 ## Credit Risk Analysis Report
