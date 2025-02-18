@@ -27,10 +27,22 @@ A confusion matrix and classification report were genearted to evaluate the perf
     * High-Risk Loans ('Class 1'): The model gets a 0.98 reacll score. Approximately 98% of high-risk profiles were correctly classified as high-risk, whereas approximately 2% of high-risk profiles were incorrectly classified as healthy.
 
 ### Summary
+Overall, the logistic regression model trained on the loan profile data performs well when predicting whether a loan profile is healthy or high risk, based on a range of loan features. 
 
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
+If used to classify loan customers, this model can be recommended for use, based on high scores for accuracy, precision and recall. In general, the model produced accurate classifications, and is appropriate for use.
 
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
+Two scenarios to consider:
+1) The model's weakness is incorrectly classifying healthy profiles as high-risk. In practice, there is limited risk to the loan issuer, as cases of misclasification of healthy profiles as high-risk would trigger additional review of a profile prior to any further action.
+2) A potentially problematic scenario is the classification of high-risk profiles as healthy. In this scenario, high-risk borrowers may be allowed to gain access to additional credit without additional review. That said, the model successfully minimizes this scenario, scoring 0.98 for recall with high-risk profiles. Out of 619 high-risk profiles in the test data, only 10 were incorrectly classified as healthy. 
 
-If you do not recommend any of the models, please justify your reasoning.
+
+
+
+
+
+
+
+
+
+
+
