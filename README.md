@@ -6,13 +6,15 @@ This repo contains code and analysis for the Module 20 Challenge.
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+The purpose of this analysis is to develop a logistic regression model, which can be used to predict whether a loan profile is healthy or high risk.
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
+The model developed for this analysis was trained on loan profile features, which included loan size, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks and total debt.
+
+The loan data was split into training and test data, with 75% of data used for training the model and 25% for testing the model. Additionally, the training data was scaled to improve the model's performance.
+
+A confusion matrix and classification report were genearted to evaluate the performance of the model.
+
+
 
 ## Results
 
