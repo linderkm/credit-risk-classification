@@ -4,6 +4,11 @@ This repo contains code and analysis for the Module 20 Challenge. Code for this 
 ### References
 References for this project are listed here. The number associated with each refernce corresponds to the reference numbers included in code comments.
 
+1) https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+2) Module 20; Lesson 1; Acivity 3; logistic_regression_solution.ipynb
+3) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html#sklearn.metrics.confusion_matrix
+4) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
+
 
 ## Credit Risk Analysis Report
 
