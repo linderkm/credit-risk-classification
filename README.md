@@ -2,9 +2,9 @@
 This repo contains code and analysis for the Module 20 Challenge.
 
 
-# Credit Risk Analysis Report
+## Credit Risk Analysis Report
 
-## Overview of the Analysis
+### Overview of the Analysis
 
 The purpose of this analysis is to develop a logistic regression model, which can be used to predict whether a loan profile is healthy or high risk.
 
@@ -16,14 +16,17 @@ A confusion matrix and classification report were genearted to evaluate the perf
 
 
 
-## Results
+### Results
+* Accuracy:
+    * The model has a 0.99 accuracy score, meaning that the model was highly successful at correctly predicting whether a loan profile was healthy or high risk.
+* Precision:
+    * Healthy Loans ('Class 0'): The model gets a 1.00 score for precision. The model was extremely successful at correctly classifying healthy loan profiles, with limited instances of high-risk profiles being classified has healthy.
+    * High-risk loans ('Class 1'): The model gets a 0.84 score for precision. The model was less successful at correctly classifying high-risk profiles, with greater instances of healthy profiles being incorrectly classified as high risk.
+* Recall:
+    * Healthy Loans ('Class 0'): The model gets a 0.99 score for recall. The model produced minimal instances of healthy profiles being classified as high-risk.
+    * High-Risk Loans ('Class 1'): The model gets a 0.98 score for recall. The model produced minimal instances of high-risk profiles being classified as healthy.    
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
-
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
-
-## Summary
+### Summary
 
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
