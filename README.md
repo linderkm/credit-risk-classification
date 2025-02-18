@@ -1,14 +1,6 @@
 # Challenge 20: Credit Risk Classification
 This repo contains code and analysis for the Module 20 Challenge. Code for this challenge can be found in Credit_Risk/credit_risk_classification.ipynb. The analysis component can be found below.
 
-### References
-References for this project are listed here. The number associated with each refernce corresponds to the reference numbers included in code comments.
-
-1) https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
-2) Module 20; Lesson 1; Acivity 3; logistic_regression_solution.ipynb
-3) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html#sklearn.metrics.confusion_matrix
-4) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
-
 
 ## Credit Risk Analysis Report
 
@@ -44,7 +36,13 @@ Two scenarios to consider:
 2) A potentially problematic scenario is the classification of high-risk profiles as healthy. In this scenario, high-risk borrowers may be allowed to gain access to additional credit without additional review. That said, the model successfully minimizes this scenario, scoring 0.98 for recall with high-risk profiles. Out of 619 high-risk profiles in the test data, only 10 were incorrectly classified as healthy. 
 
 
+## References
+References for this project are listed here. The number associated with each refernce corresponds to the reference numbers included in code comments.
 
+1) https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html
+2) Module 20; Lesson 1; Acivity 3; logistic_regression_solution.ipynb
+3) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html#sklearn.metrics.confusion_matrix
+4) https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html
 
 
 
